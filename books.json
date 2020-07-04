@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Journey to the Center of the Earth",
         "price": 10.00,
-        "specifications": {
+        "specifications": { 
             "Originally published":"November 25, 1864",
             "Author":"Jules Verne",
             "Page count": 183,

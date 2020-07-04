@@ -3,7 +3,7 @@ npm install
 node ./app.js
 
 eu usei o postman para testar a api
-
+ 
 todos http://www.localhost:3000/
 
 por id http://www.localhost:3000/livro/5
