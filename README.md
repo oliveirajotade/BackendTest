@@ -1,21 +1,13 @@
-Um cliente tem necessidade de buscar livros em um catálogo. Esse cliente quer ler e buscar esse catálogo de um arquivo JSON, e esse arquivo não pode ser modificado. Então com essa informação, é preciso desenvolver:
+Para execultar precisa rodar o 
+npm install
+node ./app.js
 
-- Criar uma API simples para buscar produtos no arquivo JSON disponibilizado.
-- Que seja possivel buscar livros por suas especificações(autor, nome do livro ou outro atributo)
-- É preciso que o resultado possa ser ordenado pelo preço.(asc e desc)
-- Disponibilizar um método que calcule o valor do frete em 20% o valor do livro.
+eu usei o postman para testar a api
 
-Será avaliado no desafio:
+todos http://www.localhost:3000/
 
-- Organização de código;
-- Manutenibilidade;
-- Princípios de orientação à objetos;
-- Padrões de projeto;
-- Teste unitário
-- Conhecimento em controle de versão;
+por id http://www.localhost:3000/livro/5
 
-Para nos enviar o código, crie um fork desse repositório e quando finalizar, mande um pull-request para nós.
+por nome http://www.localhost:3000/pesquisa?name=The Lord of the Rings
 
-O projeto deve ser desenvolvido em C#, utilizando o .NET Core 2.2 ou superior.
-
-Gostaríamos que fosse evitado a utilização de frameworks, e que tivesse uma explicação do que é necessário para funcionar o projeto e os testes.
+por author http://www.localhost:3000/pesquisa/author?name=J. R. R. Tolkien

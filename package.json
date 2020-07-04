@@ -1,0 +1,23 @@
+{
+  "name": "backendtest",
+  "version": "1.0.0",
+  "description": "Um cliente tem necessidade de buscar livros em um catálogo. Esse cliente quer ler e buscar esse catálogo de um arquivo JSON, e esse arquivo não pode ser modificado. Então com essa informação, é preciso desenvolver:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliveirajotade/BackendTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliveirajotade/BackendTest/issues"
+  },
+  "homepage": "https://github.com/oliveirajotade/BackendTest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
